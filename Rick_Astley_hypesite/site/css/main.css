@@ -1,0 +1,99 @@
+body {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F1F1F1;
+}
+
+.main{
+    align-items: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    align-items: center;
+    padding: 15px;
+}
+
+.headerbild {
+    display: flex;
+    margin: 15px auto;
+    height: 200px;
+    width: 100%;
+
+
+}
+
+.bild{
+    align-items: center;
+}
+.header2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 5px;
+}
+.navbox {
+    display: flex;
+    background-color: transparent;
+    margin: 15px;
+    font-size: x-large;
+}
+
+.navboxhome {
+    display: flex;
+    background-color: transparent;
+    margin: 15px;
+    font-size: xx-large;
+
+}
+/*section shit seperator -----------------------------------------*/
+
+section{
+    display: flex;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding:15px;
+    margin: 15px;
+    flex-direction: column;
+    border: 1px solid #A7D7F9;
+}
+
+.img{
+    display:flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.img2 {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    height: 600px;
+}
+.p{
+    font-size: large;
+}
+
+.video{
+    display: flex;
+    align-items: center;
+}
+/*footer shit seperator------------------------------------------*/
+
+footer {
+    display: flex;
+    padding: 15px;
+    text-align: left;
+    background-color: #FFFFFF;
+    width: 100%;
+    margin: 15px;
+    background-attachment: scroll;
+    border: 1px solid #A7D7F9;
+}
